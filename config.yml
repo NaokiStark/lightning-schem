@@ -1,0 +1,23 @@
+# LISTA: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/enchantments/Enchantment.html
+# ITEMS: https://www.digminecraft.com/lists/item_id_list_pc.php
+
+# FORMATO: "ITEM:ENCANTAMIENTO,NIVEL,NOMBRE(OPCIONAL),LORE(OPCIONAL);ENCANTAMIENTO,NIVEL;ENCANTAMIENTO,NIVEL..."
+
+# Minimo posible de items por cofre
+minLimit: 2
+
+# Maximo posible de items por cofre
+maxLimit: 10
+
+chest:
+  default:
+    - "WOOD_SWORD:DAMAGE_ALL,1,Le matadore,Le espade mas filose"
+    - "MELON"
+    - "GRILLED_PORK"
+    - "APPLE"
+  uno:
+    - "WOODEN_AXE:DAMAGE_ALL,1,Le cortadore,Le hache mas filose"
+    - "MELON"
+    - "GRILLED_PORK"
+    - "COOKIE"
+    - "GOLDEN_APPLE"
