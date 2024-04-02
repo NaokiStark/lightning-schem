@@ -46,7 +46,7 @@ public class LightningSchem extends JavaPlugin{
 	@Override
 	public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args){
 		if(cmd.getName().equalsIgnoreCase("golpear")) {
-			if(sender.hasPermission("lightningschem.golpear") || !(sender instanceof Player)) {
+			if(sender.hasPermission("lightningschem.golpear")) {
 				
 				if(args.length < 5) {
 					l.warning("Usage: \n\n /golpear <schem> <x y z> <world> <endMsg>");
