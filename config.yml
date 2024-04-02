@@ -1,23 +1,8 @@
-# LISTA: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/enchantments/Enchantment.html
-# ITEMS: https://www.digminecraft.com/lists/item_id_list_pc.php
+# tickrate = cada x ticks agrega bloques
+tickrate: 4
 
-# FORMATO: "ITEM:ENCANTAMIENTO,NIVEL,NOMBRE(OPCIONAL),LORE(OPCIONAL);ENCANTAMIENTO,NIVEL;ENCANTAMIENTO,NIVEL..."
+# blockXTick = cantidad de bloques por cada tanda
+blockXTick: 150000
 
-# Minimo posible de items por cofre
-minLimit: 2
-
-# Maximo posible de items por cofre
-maxLimit: 10
-
-chest:
-  default:
-    - "WOOD_SWORD:DAMAGE_ALL,1,Le matadore,Le espade mas filose"
-    - "MELON"
-    - "GRILLED_PORK"
-    - "APPLE"
-  uno:
-    - "WOODEN_AXE:DAMAGE_ALL,1,Le cortadore,Le hache mas filose"
-    - "MELON"
-    - "GRILLED_PORK"
-    - "COOKIE"
-    - "GOLDEN_APPLE"
+# reportOnEveryXBlocks = envia al log cuantos bloques faltan cada X bloques colocados
+reportOnEveryXBlocks: 100000

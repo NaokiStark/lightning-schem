@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="spigot-1.16.5">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../Downloads/spigot-1.16.5.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="https://hub.spigotmc.org/javadocs/bukkit/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../Downloads/spigot-1.16.5.jar!/" />
+    </SOURCES>
+  </library>
+</component>

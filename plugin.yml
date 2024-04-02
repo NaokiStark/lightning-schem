@@ -1,14 +1,10 @@
-name: RandomChest
-main: fabicorp.RandomChest
-version: 1.1
+name: LightningSchem
+main: fabicorp.LightningSchem
+version: 1.0
+api-version: 1.16
 commands: 
-   rellenarcofres:
-      description: Rellena cofres
-      permission: randomchest.rellenarcofres
-      permission-message: "No tienes permiso."
-      usage: "/rellenarcofres Coord1X Coord1Y Coord1Z Coord2X Coord2Y Coord2Z Nivel_Cofres World"
-   chestreload:
-      description: Reinicia config RandomChest
-      permission: randomchest.reload
-      permission-message: "No tienes permiso."
-      usage: "/reload"
+   golpear:
+      description: Paste Schematic
+      permission: lightningschem.golpear
+      permission-message: "You can't do this."
+      usage: "/golpear <schem> <x y z> <world>"

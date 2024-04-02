@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="LightningSchem">
+    <output-path>$PROJECT_DIR$/out/artifacts/LightningSchem</output-path>
+    <root id="archive" name="LightningSchem_1.16_R3.jar">
+      <element id="file-copy" path="$PROJECT_DIR$/config.yml" />
+      <element id="file-copy" path="$PROJECT_DIR$/plugin.yml" />
+      <element id="module-output" name="LightningSchem" />
+    </root>
+  </artifact>
+</component>
